@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.DS_Store
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# OS-specific
+Thumbs.db
+.DS_Store
+
+# IDE-specific
+.vscode/
+.idea/
+*.iml
+
+# Appium & Android build artifacts
+*.log
+*.tmp
+*.apk
+*.keystore
+
+# Test artifacts
+recordings/
+docs/screenshots/
+reports/
+allure-results/
+allure-report/
+
+# Environment variables & credentials
+*.env
+*.secret
+*.credentials
